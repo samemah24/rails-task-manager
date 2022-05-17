@@ -1,0 +1,11 @@
+<h1 id="task-center">My Tasks 🗒</h1>
+<ul class="list-center">
+  <% @tasks.each do |task| %>
+    <li class="list-center">
+      <h2 class="list-center">
+        <%= link_to task.title, task_path(task)%>
+      </h2>
+    </li>
+  <% end %>
+  <h3 class="btn-center"><%=link_to "+ Add a new task ❔", tasks_new_path %></h3>
+</ul>

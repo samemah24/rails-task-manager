@@ -1,0 +1,24 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+#task-center{
+  text-align: center;
+  color: orangered;
+  margin-top: 10px;
+}
+
+.list-center{
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}
+
+.btn-center{
+  text-align: center;
+  color:darkviolet;
+  opacity: 0.6;
+}
+
+.btn-center:hover{
+  opacity: 1;
+}
